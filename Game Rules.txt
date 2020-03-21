@@ -1,0 +1,112 @@
+Setting up the Game:
+
+- the 20 tile cards are placed on the table in a 5x4 grid (this is considered the board)
+- randomly determine the staring position of the swarm and put it there
+- shuffle event card pile and place it next to the board. (in front of the "seer" player if he participates in the game)
+- shuffle the leader card pile and place it next to the board. (in front of the "tactician" player if he participates in the game)
+- shuffle the covert card pile and place it next to the board.(in front of the "clandestine" player if he participates in the game)
+- shuffle the quest card pile and place it next to the board. 
+- shuffle the specialty card pile and keep it ready.
+- shuffle the traitor card pile and keep it ready.
+- set up event pile
+	-shuffle the rain event cards and put 5 of them aside
+	-take the non rain event cards and shuffle them together with the remaining rain event cards
+	-take the 5 random rain event cards from before and put them on top of the other event cards
+
+
+
+For each player:
+
+- draw a card from the specialty card pile (and follow its game setup instructions if there are any)
+- puts your 20 troops in your reserve
+- receive 5 water
+- draw four cards from the traitor card pile choose and keep one of them, the other 3 are removed from the game face down. (you are allowed to take notes of their names)
+- put five of the troops from your reserve on a free tile
+
+the youngest player starts and it is played counter clockwise
+
+The game starts:
+
+A Round:
+ 
+Phase1: Event
+- the start player token is moved depending on the swarm movement indicator 
+	- east move token counter clockwise(e.g.: 2 east means the player second to the right of the previous start player gets the token)
+	- west move token clock wise
+	- north (neglect number) active player chooses another player to get the start token
+	- south token stays where it is
+- reveal the top card of the event card pile and follow its instructions
+- the swarm moves according to the direction indicated on the event card by the amount of steps indicated by the number (for the swarm the map is wraparound). 
+	all troops it passes through are killed (troops in bastions are not affected) (they go back to their players reserve)
+
+Phase2: Trade
+- players can trade information for water to each other
+	(including showing a card to someone that he is not be allowed to look at but you are)
+- when nobody wants to trade go to the next phase
+
+Phase3: Movement
+- each player 
+ - drop: pay 2*x water in order to drop x troops from your reserve on a tile
+
+- each player
+ - move: pay 1 water to move a stack of troops one tile in any directon (not diagonal)
+	- you are not allowed to move troops from a tile witch contains troops of other players
+	- you can not move from or to a tile with the swarm
+
+
+Phase4: Battles
+-if there are anywhere troops of two or more different players on the same tile (exeption: sanctuary!)
+a battle will take place
+
+- if there are more than two players, the first player in turn order can decide who he wants to battle
+	the Battle
+	- each player chooses their comittment (number from 1-6 secretly, it has to be lower or equal to the number of troops he fields for battle)
+	- each player chooses a leader and up to one tactics card secretly such as a number lower or equal to their troopcount
+	- both players turn their chosen cards face up at the same time
+	- should somebody have a traitor card that matches one of the leaders and chooses to play it, the respective leader is removed from the game
+		and his army goes back to the reserve
+	- the leader elements are compared
+		- if an element is weak to the other its leader has no effect in this battle
+		- leaders have one of 4 elements: fire earth wind or water
+		- fire > wind > earth > fire
+		- water cannot be countered by any element
+	- now for both players the battle score is calculated:
+		comittment + leader skill (+1 if you are defending a bastion)
+        - winner is the player with the higher resulting battle score on
+	- the looser looses all troops (they go back to the reserve) 
+	- the winner looses the amount of troops corresponding to his comittment
+	- should they have the same battle score each player looses all troops
+
+Phase5: Harvest
+- for each troop on a tile that yields water their controller can grab one water and put it into their reserve
+- the controller of a basin takes 2 water
+
+Phase6: Auction
+- the top card of the leaders card pile is put in the auction hall (face down)
+	now players starting with the start player can bid water (taking turns) on the leader
+- repeat this for a tactics card, quest card and the covert card
+
+
+End of game:
+
+the game ends when:
+
+
+- a player manages to conquer 3 bastions (he wins the game)
+
+- at the end of the round where the event card has been revealed that ends the game
+	- nothing can be done now (no trading/ no playing of covert cards)
+	-in this case count victory points for every player
+		- each controlled city grants 1 victory point
+		- in case there are multiple players even on points 
+
+			tied players simultaneously play one of their leaders 
+				-this works as a battle with 0 comittment (tile is dessert)
+				
+			repeat until there is a winner (each leader can only be used once)
+
+		if there is no winner yet
+			- first compare controlled cities
+			- then compare water reserve
+			- then compare number of quest cards
+			- wtf just treat it as a draw
