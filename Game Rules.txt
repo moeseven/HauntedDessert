@@ -13,48 +13,52 @@ Setting up the Game:
 	-take the non rain event cards and shuffle them together with the remaining rain event cards
 	-take the 5 random rain event cards from before and put them on top of the other event cards
 
-
-
 For each player:
+	- draw a card from the specialty card pile (and follow its game setup instructions if there are any)
+	- draw a quest
+	- puts your 15 troops in your reserve
+	- receive 5 water
+	- draw 4 cards from the traitor card pile choose and keep one of them, the other 3 are removed from the game face down. (you are allowed to take notes of their names)
+	- put 5 of the troops from your reserve on a free tile
 
-- draw a card from the specialty card pile (and follow its game setup instructions if there are any)
-- puts your 20 troops in your reserve
-- receive 5 water
-- draw four cards from the traitor card pile choose and keep one of them, the other 3 are removed from the game face down. (you are allowed to take notes of their names)
-- put five of the troops from your reserve on a free tile
+the youngest player starts as start player and gets the startplayer token (it is played counter clockwise)
 
-the youngest player starts and it is played counter clockwise
+General:
+
+Trading:
+- at any time players can make deals, and pay each other in water
+
+Treason:
+- at any point when a leader is showed doing an action, his traitor card can be played in order to remove that leader from the game
+
+
 
 The game starts:
 
 A Round:
  
 Phase1: Event
-- the start player token is moved depending on the swarm movement indicator 
-	- east move token counter clockwise(e.g.: 2 east means the player second to the right of the previous start player gets the token)
-	- west move token clock wise
-	- north (neglect number) active player chooses another player to get the start token
-	- south token stays where it is
+- the start player token is moved depending on the swarm movement number
+	- move token counter clockwise by the stated number in the event card (e.g.: 2 means the player second to the right of the previous start player gets the token)
 - reveal the top card of the event card pile and follow its instructions
 - the swarm moves according to the direction indicated on the event card by the amount of steps indicated by the number (for the swarm the map is wraparound). 
 	all troops it passes through are killed (troops in bastions are not affected) (they go back to their players reserve)
+- each player:
+	Prayer:
+	- decide wheather to not participate in movement, harvest and auction phase this round, if so put a troop from your reserve to a temple
 
-Phase2: Trade
-- players can trade information for water to each other
-	(including showing a card to someone that he is not be allowed to look at but you are)
-- when nobody wants to trade go to the next phase
-
-Phase3: Movement
+Phase2: Movement
 - each player 
- - drop: pay 2*x water in order to drop x troops from your reserve on a tile
+ - drop: pay 2*x water in order to drop x troops from your reserve on the sanctuary or a tile occupied by you only. (not to the swarm tile)
+		- you can also drop your troops from temples (the troops from temples don't have to be payed) (not to or from the swarm tile)
 
 - each player
- - move: pay 1 water to move a stack of troops one tile in any directon (not diagonal)
+ - move: pay 1 water to move a stack of troops to an adjacent tile (not diagonal)
 	- you are not allowed to move troops from a tile witch contains troops of other players
 	- you can not move from or to a tile with the swarm
 
 
-Phase4: Battles
+Phase3: Battles
 -if there are anywhere troops of two or more different players on the same tile (exeption: sanctuary!)
 a battle will take place
 
@@ -63,28 +67,31 @@ a battle will take place
 	- each player chooses their comittment (number from 1-6 secretly, it has to be lower or equal to the number of troops he fields for battle)
 	- each player chooses a leader and up to one tactics card secretly such as a number lower or equal to their troopcount
 	- both players turn their chosen cards face up at the same time
-	- should somebody have a traitor card that matches one of the leaders and chooses to play it, the respective leader is removed from the game
-		and his army goes back to the reserve
+	- treason: 	should somebody have a traitor card that matches one of the leaders and chooses to play it, the respective leader is removed from the game
+		 	and his army goes back to the reserve (the battle ends)
 	- the leader elements are compared
-		- if an element is weak to the other its leader has no effect in this battle
-		- leaders have one of 4 elements: fire earth wind or water
-		- fire > wind > earth > fire
-		- water cannot be countered by any element
+		- if the element of a leader is weak to the element of the other leader, that leader is considered countered in this battle 
+			- leaders have one of 4 elements: fire earth wind or water
+			- fire > earth > water > fire
+		- wind is neutral (does not counter nor is counterd by another element)
 	- now for both players the battle score is calculated:
-		comittment + leader skill (+1 if you are defending a bastion)
-        - winner is the player with the higher resulting battle score on
+		comittment + leader skill(only if not countered) + 1 if defending a bastion
+        - winner is the player with the higher resulting battle score
+	- should they have the same battle score each player looses all troops
 	- the looser looses all troops (they go back to the reserve) 
 	- the winner looses the amount of troops corresponding to his comittment
-	- should they have the same battle score each player looses all troops
+	- the winner may put one troop from his reserve to the temple corresponding to his generals element
+	
 
-Phase5: Harvest
-- for each troop on a tile that yields water their controller can grab one water and put it into their reserve
-- the controller of a basin takes 2 water
+Phase4: Harvest
+-for each player:
+	- for each troop on a tile that yields water grab 1 water and put it into your reserve
+	- if you control a basin take 2 water
 
-Phase6: Auction
-- the top card of the leaders card pile is put in the auction hall (face down)
-	now players starting with the start player can bid water (taking turns) on the leader
-- repeat this for a tactics card, quest card and the covert card
+Phase5: Auction
+- the top card of the quest card pile is put in the auction hall (face down)
+	now players starting with the start player can bid water (taking turns) on that card
+- repeat this for a leader and a covert card
 
 
 End of game:
